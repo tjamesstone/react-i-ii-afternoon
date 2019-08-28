@@ -162,8 +162,8 @@ const data = [
     name: { first: "Say", last: "Gooderick" },
     city: "Lousado",
     country: "Portugal",
-    employer: null,
-    title: null,
+    employer: 'N/A',
+    title: 'N/A',
     favoriteMovies: ["Unholy Three, The", "Kabul Express", "All-Star Superman"]
   },
   {
@@ -276,8 +276,8 @@ const data = [
     name: { first: "Mikaela", last: "Jeannequin" },
     city: "Tha Maka",
     country: "Thailand",
-    employer: null,
-    title: null,
+    employer: 'N/A',
+    title: 'N/A',
     favoriteMovies: [
       "Book of Love",
       "I Heart Huckabees",

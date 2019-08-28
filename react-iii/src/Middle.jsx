@@ -22,11 +22,20 @@ export default class Middle extends Component {
     }
 
     nextFN(){
+        if(this.state.index < data.length-1){
         this.setState({index: this.state.index +1})
+        } else {
+            this.setState({index: this.state.index})
+        }
+
     }
 
     previousFN(){
+        if(this.state.index > 0){
         this.setState({index: this.state.index -1})
+        } else {
+            this.setState({index: this.state.index})
+        }
     }
 
 
